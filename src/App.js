@@ -5,7 +5,7 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups'
 
 import { Navbar, Footer, Sidebar, ThemeSettings } from './components'
 
-import { Ecommerce, Orders, Calendar, Employess, Stacked, Pyramid, Customers, Kanban, Area, Bar, Pie, Financial, ColourPicker, ColourMapping, Editor } from './pages'
+import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Area, Bar, Pie, Financial, ColourPicker, ColourMapping, Editor, Line } from './pages'
 
 import './App.css'
 
@@ -64,7 +64,7 @@ const App = () => {
                             <Route path='/pie' element={<Pie />} />
                             <Route path='/financial' element={<Financial />} />
                             <Route path='/colour-mapping' element={<ColourMapping />} />
-                            <Route path='/pryamid' element={<Pryamid />} />
+                            <Route path='/pryamid' element={<Pyramid />} />
                             <Route path='/stacked' element={<Stacked />} />
 
                         </Routes>
